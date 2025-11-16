@@ -1,0 +1,37 @@
+-- Main Library Source
+
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+ 
+-- Window or baseplate Make tab or section
+
+local Window = Library:NewWindow("Rblx Community Space")
+ 
+-- Section - Section Usefull you don't want ok?
+
+local Section = Window:NewSection("Main")
+ 
+-- Button Add Scripts in it
+
+Section:CreateButton("Token1", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Jason22scrips22/CommunitySpaceTOKEN1/refs/heads/main/Jason22scripts"))()
+print("Clicked")
+end)
+
+Section:CreateButton("Token2", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Jason22scrips22/CommunitySpaceTOKEN2/refs/heads/main/Jason22scripts"))()
+print("Clicked")
+end)
+
+Section:CreateButton("Token3", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Jason22scrips22/CommunitySpaceTOKEN3/refs/heads/main/Jason22scripts"))()
+print("Clicked")
+end)
+
+Section:CreateButton("Token4", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Jason22scrips22/TOKENTP4/refs/heads/main/Jason22scripts"))()
+print("Clicked")
+end)
+
+-- Button Add Scripts in it
+
+Section:CreateButton("copy YT: Jason22scripts", function()
+setclipboard("https://www.youtube.com/@Jason22scripts22")
+toclipboard("https://www.youtube.com/@Jason22scripts22")
+print("Clicked")
+end)
